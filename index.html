@@ -85,40 +85,18 @@
     </div>
 </div>
 
-<!-- Masukkan kode JavaScript di dalam tag <script> -->
     <script>
-        // Fungsi untuk penjumlahan
-        function tambah(angka1, angka2) {
-            return angka1 + angka2;
+        // Meminta input dari pengguna menggunakan prompt
+        let nama = prompt("Masukkan nama Anda:");
+
+        // Memeriksa apakah pengguna telah memasukkan nama
+        if (nama) {
+            // Menampilkan pesan alert dengan menyapa pengguna
+            alert("Halo, " + nama + "! Selamat datang di program ini!");
+        } else {
+            // Menampilkan pesan alert jika pengguna tidak memasukkan nama
+            alert("Anda tidak memasukkan nama. Silakan coba lagi.");
         }
-
-        // Fungsi untuk pengurangan
-        function kurang(angka1, angka2) {
-            return angka1 - angka2;
-        }
-
-        // Fungsi untuk perkalian
-        function kali(angka1, angka2) {
-            return angka1 * angka2;
-        }
-
-        // Fungsi untuk pembagian
-        function bagi(angka1, angka2) {
-            if (angka2 === 0) {
-                return "Tidak bisa dibagi dengan 0";
-            }
-            return angka1 / angka2;
-        }
-
-        // Contoh penggunaan kalkulator
-        let angka1 = 10;
-        let angka2 = 5;
-
-        // Tampilkan hasil pada halaman
-        document.write("<p>Penjumlahan: " + tambah(angka1, angka2) + "</p>");
-        document.write("<p>Pengurangan: " + kurang(angka1, angka2) + "</p>");
-        document.write("<p>Perkalian: " + kali(angka1, angka2) + "</p>");
-        document.write("<p>Pembagian: " + bagi(angka1, angka2) + "</p>");
     </script>
     
 <!-- Bootstrap JS -->
