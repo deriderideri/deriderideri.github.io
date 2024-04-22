@@ -85,6 +85,39 @@
     </div>
 </div>
 
+
+    // Fungsi untuk penjumlahan
+function tambah(angka1, angka2) {
+    return angka1 + angka2;
+}
+
+// Fungsi untuk pengurangan
+function kurang(angka1, angka2) {
+    return angka1 - angka2;
+}
+
+// Fungsi untuk perkalian
+function kali(angka1, angka2) {
+    return angka1 * angka2;
+}
+
+// Fungsi untuk pembagian
+function bagi(angka1, angka2) {
+    if (angka2 === 0) {
+        return "Tidak bisa dibagi dengan 0";
+    }
+    return angka1 / angka2;
+}
+
+// Contoh penggunaan kalkulator
+let angka1 = 10;
+let angka2 = 5;
+
+console.log("Penjumlahan: " + tambah(angka1, angka2));
+console.log("Pengurangan: " + kurang(angka1, angka2));
+console.log("Perkalian: " + kali(angka1, angka2));
+console.log("Pembagian: " + bagi(angka1, angka2));
+
 <!-- Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
